@@ -1,0 +1,50 @@
+.search {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  width: 100vw;
+}
+
+.search h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  left: 0;
+  height: 10px;
+}
+
+#search__input {
+  display: block;
+  width: 539px;
+  padding: 20px;
+  left: 0;
+  height: 10px;
+  border: none;
+}
+
+#search__input:focus {
+  outline-width: 0;
+}
+
+#search__airbnb {
+  display: block;
+  left: 0;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 579px;
+}
+
+#search__airbnb:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.search__people {
+  display: block;
+  border: 0px solid black;
+  background: white;
+}

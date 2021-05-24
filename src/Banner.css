@@ -1,0 +1,100 @@
+.banner {
+  background: url(https://hackernoon.com/drafts/tkbv3yne.png) right center
+    no-repeat;
+  height: 57vh;
+  position: relative;
+  width: 1540px;
+  background-size: cover;
+}
+
+.banner_info {
+  background-color: black;
+  color: white;
+  padding: 25vh 50px 50px 40px;
+  width: 300px;
+}
+
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner_info > h5 {
+  margin-top: 10px;
+}
+
+.banner_info > button:hover {
+  background-color: white;
+  color: #ff7779;
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.explore_button {
+}
+
+.explore_button:hover {
+  animation-name: explore;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes explore {
+  0% {
+    box-shadow: 0px 0px 15px 0px #ff7779;
+  }
+  10% {
+    box-shadow: 0px 0px 15px 0.5px #ff7779;
+  }
+  20% {
+    box-shadow: 0px 0px 15px 1px #ff7779;
+  }
+  30% {
+    box-shadow: 0px 0px 15px 1.5px #ff7779;
+  }
+  40% {
+    box-shadow: 0px 0px 15px 2px #ff7779;
+  }
+  50% {
+    box-shadow: 0px 0px 15px 2.5px #ff7779;
+  }
+  60% {
+    box-shadow: 0px 0px 15px 3px #ff7779;
+  }
+  70% {
+    box-shadow: 0px 0px 15px 3.5px #ff7779;
+  }
+  80% {
+    box-shadow: 0px 0px 15px 4px #ff7779;
+  }
+  90% {
+    box-shadow: 0px 0px 15px 4.5px #ff7779;
+  }
+  100% {
+    box-shadow: 0px 0px 15px 5px #ff7779;
+  }
+}
+
+.explore_text {
+  transition: letter-spacing 1s ease-in-out;
+}
+
+.explore_button:hover .explore_text {
+  letter-spacing: 3px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
